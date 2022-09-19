@@ -1,6 +1,10 @@
-# Microservices-with-Spring-Boot-and-Spring-Cloud-2E
-Microservices-with-Spring-Boot-and-Spring-Cloud-2E, Published by Packt
+# Microservices with Spring Boot and Spring Cloud, Second Edition 
 
+<a href="https://www.packtpub.com/product/microservices-with-spring-boot-and-spring-cloud-second-edition/9781801072977"><img src="https://static.packt-cdn.com/products/9781801072977/cover/normal" alt="Microservices with Spring Boot and Spring Cloud, Second Edition" height="256px" align="right"></a>
+
+This is the code repository for [Microservices with Spring Boot and Spring Cloud, Second Edition](https://www.packtpub.com/product/microservices-with-spring-boot-and-spring-cloud-second-edition/9781801072977), published by Packt.
+
+**Build resilient and scalable microservices using Spring Cloud, Istio, and Kubernetes**
 ## About the book
 
 
@@ -21,6 +25,13 @@ By the end of this book, you'll be confident in building microservices that are 
 6. Apply Istio for improved security, observability, and traffic management
 7. Write and run automated microservice tests with JUnit, testcontainers, Gradle, and bash
 
+## Try out new versions
+
+If you want to try out the source code of this book with newer versions of Spring, Java, Kubernetes, and Istio than used in the book, you can take a look at the following blog posts:
+
+1. [Upgrade to Spring Boot 2.7 and Spring Native 0.12](https://callistaenterprise.se/blogg/teknik/2022/09/19/microservices-upgrade-SB2.7-SN0.12/) (published 19 September 2022)
+
+
 ## Errata
 * **Page 147 (Defining index for MongoDB):** The description does not mention that auto-creation of an index is disabled since Spring Data MongoDB 3.0. Therefore, index creation is handled programmatically by the main classes `ProductServiceApplication` and `RecommendationServiceApplication`.
 For example, see the method [initIndicesAfterStartup](https://github.com/PacktPublishing/Hands-On-Microservices-with-Spring-Boot-and-Spring-Cloud/blob/191f93f56f0d58eae4227a1952c73b4b10e8bac0/Chapter06/microservices/product-service/src/main/java/se/magnus/microservices/core/product/ProductServiceApplication.java#L39-L47) in the `ProductServiceApplication` class.
@@ -28,3 +39,5 @@ For example, see the method [initIndicesAfterStartup](https://github.com/PacktPu
   For more information, see:
   * [What’s New in Spring Data MongoDB 3.0](https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#new-features.3.0)
   * [Spring Data MongoDB - Index Creation](https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.index-creation)
+
+* **Page 153 (Testcontainers for MongoDB):** *The sentence* **For the `product` and `review` microservices, which use MongoDB, a corresponding base class, `MongoDbTestBase`, has been added** *should be* **For the `product` and `recommendation` microservices, which use MongoDB, a corresponding base class, `MongoDbTestBase`, has been added**.
