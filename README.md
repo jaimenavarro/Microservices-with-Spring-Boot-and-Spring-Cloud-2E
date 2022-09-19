@@ -3,6 +3,7 @@ Microservices-with-Spring-Boot-and-Spring-Cloud-2E, Published by Packt
 
 ## About the book
 
+
 With this book, you'll learn how to efficiently build and deploy microservices. This new edition has been updated for the most recent versions of Spring, Java, Kubernetes, and Istio, demonstrating faster and simpler handling of Spring Boot, local Kubernetes clusters, and Istio installation. The expanded scope includes native compilation of Spring-based microservices, support for Mac and Windows with WSL2, and an introduction to Helm 3 for packaging and deployment. A revamped security chapter now follows the OAuth 2.1 specification and makes use of the newly launched Spring Authorization Server from the Spring team.
 
 Starting with a set of simple cooperating microservices, you'll add persistence and resilience, make your microservices reactive, and document their APIs using OpenAPI.
